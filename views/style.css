@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: wheat;
+    max-width: 400px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    max-width: 200px;
+    padding: 10px;
+    border: none;
+    transition: all 1s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: rgb(191, 191, 216);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    
+}
